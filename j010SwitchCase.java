@@ -4,6 +4,7 @@ public class j010SwitchCase {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
+        sc.close();
 
         switch (num) {
             case 1:

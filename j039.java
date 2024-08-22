@@ -10,6 +10,7 @@ public class j039 {
        int x = sc.nextInt();
        System.out.println("Enter n");
        int n = sc.nextInt();
+       sc.close();
 
 
        int result = 1;

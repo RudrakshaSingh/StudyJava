@@ -7,6 +7,7 @@ public class j040 {
        Scanner sc = new Scanner(System.in);
        int n1 = sc.nextInt();
        int n2 = sc.nextInt();
+       sc.close();
 
        // Loop until n1 equals n2
        while(n1 != n2) { 

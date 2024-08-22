@@ -10,6 +10,7 @@ public class j048Strings {
         Scanner sc = new Scanner(System.in);
         String name1=sc.nextLine();
         System.out.println("your name is "+name1);
+        sc.close();
 
         //Functions
 
@@ -41,7 +42,7 @@ public class j048Strings {
             System.out.println("string not equal");
         }
 
-        //give wrong answer because how string in mem
+        //give wrong answer because how string is stored mem
         if (new String("tony") == new String("tony")) {
             System.out.println("string are equal");
         }else{
@@ -54,6 +55,8 @@ public class j048Strings {
         String name20=sentance.substring(11,sentance.length());
         String name21=sentance.substring(0);//by default take last index
 
+        System.out.println("hi"+name20+"hii"+name21);
+
         //string to integer
         //ParseInt Method of Integer class
         String str = "123";
@@ -65,6 +68,8 @@ public class j048Strings {
        int number1 = 123;
        String str1 = Integer.toString(number);
        System.out.println(str.length());
+
+       System.out.println(number1+str1);
  
     }
 }

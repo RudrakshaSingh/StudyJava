@@ -13,8 +13,11 @@ public class j047TakeMatrixFromUserAndSearchXAndPrintItsIndices {
                numbers[i][j]=sc.nextInt();
            }
         }
+        
 
         int x= sc.nextInt();
+        sc.close();
+
         //traverse
         for(int i=0; i<rows; i++){
            for (int j = 0; j < cols; j++) {

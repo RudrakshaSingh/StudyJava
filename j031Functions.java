@@ -16,6 +16,7 @@ public class j031Functions {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String name= sc.next();
+        sc.close();
 
         printMyName((name));//call the function
     }

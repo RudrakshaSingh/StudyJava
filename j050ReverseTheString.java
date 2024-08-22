@@ -1,4 +1,3 @@
-import java.util.*;;
 public class j050ReverseTheString {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("hello");

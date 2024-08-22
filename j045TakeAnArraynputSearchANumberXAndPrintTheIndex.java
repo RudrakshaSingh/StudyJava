@@ -10,8 +10,10 @@ public class j045TakeAnArraynputSearchANumberXAndPrintTheIndex {
         for (int i = 0; i < size; i++) {
             numbers[i] = sc.nextInt();
         }
-        
+
         int x = sc.nextInt();
+        sc.close();
+
         //output //linear serach
         for(int i=0; i < numbers.length; i++){
             if (x==numbers[i]) {

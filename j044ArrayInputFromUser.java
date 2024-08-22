@@ -10,7 +10,7 @@ public class j044ArrayInputFromUser {
         for (int i = 0; i < size; i++) {
             numbers[i] = sc.nextInt();
         }
-
+        sc.close();
         //output
         for(int i=0; i < size; i++){
             System.out.println(numbers[i]);

@@ -10,6 +10,8 @@ public class j038 {
        System.out.println("Press 1 to continue & 0 to stop");
        Scanner sc = new Scanner(System.in);
        int input = sc.nextInt();
+       sc.close();
+       
        while(input == 1) {
         System.out.println("Enter your number : ");
         int number = sc.nextInt();

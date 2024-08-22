@@ -11,11 +11,10 @@
 
 //StringBuilder
 //sb in stack and h as string in heap
-//ab jaha h stored tha usse hoi he bna diya nayi string nhi banai
+//ab jaha h stored tha usse hi "he" bna diya nayi string nhi banai
 
 //stringBuilder and string has many similar function
 
-import java.util.*;
 public class j049StringBuilder {
     public static void main(String[] args) {
         StringBuilder sb= new StringBuilder("tony"); //sb naam ki string jiska type stringBuilder hai
@@ -32,13 +31,13 @@ public class j049StringBuilder {
         //function of stringbuilder
         //insert - eg adding s to tony making it stony
         sb.insert(0, "s");
-        System.out.println(sb);
+        System.out.println("Line 35 :"+sb);
 
         sb.insert(1, "t");
         System.out.println(sb);
 
         //function of stringbuilder
-        //.dlete - character or substring
+        //.delete - character or substring
         //sb.delete(startingIndex, endingIndex) endindindex is exclusive dont consider it
         sb.delete(2, 3);
         System.out.println(sb+":string was 'stponny'");

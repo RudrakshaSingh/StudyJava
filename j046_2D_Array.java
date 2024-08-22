@@ -21,6 +21,7 @@ public class j046_2D_Array {
                numbers[i][j]=sc.nextInt();
            }
         }
+        sc.close();
    
         //output
         for(int i=0; i<rows; i++){
